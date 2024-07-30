@@ -1,4 +1,4 @@
-using Shared;
+using Roblox;
 
 namespace Server
 {
@@ -6,7 +6,19 @@ namespace Server
     {
         public static void Main()
         {
-            Hello.SayHello();
+            foreach (Player player in Services.Players.GetPlayers())
+            {
+                player.CharacterAdded.Connect(c => {
+                    if (c is Model)
+                    { // THIS IS THE BAD LINE
+                        Console.WriteLine("Player Character found!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Player is not a character!");
+                    }
+                });
+            };
         }
     }
 }
