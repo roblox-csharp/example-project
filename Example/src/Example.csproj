@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RobloxCS.Types" Version="1.0.10" />
+    <PackageReference Include="RobloxCS.Types" Version="1.1.2" />
   </ItemGroup>
 
 </Project>
