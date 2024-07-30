@@ -10,12 +10,5 @@
   <ItemGroup>
     <PackageReference Include="RobloxCS.Types" Version="1.0.10" />
   </ItemGroup>
-  
-  <Target Name="RbxcsBuild" AfterTargets="Build">
-    <Exec Command="echo Compiling with roblox-cs..." />
-    <Exec Command="rmdir /s /q obj" />
-    <Exec Command="rmdir /s /q bin" />
-    <Exec Command="cd .. &amp;&amp; roblox-cs" />
-  </Target>
 
 </Project>
