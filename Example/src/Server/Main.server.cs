@@ -9,7 +9,9 @@ namespace Server
             foreach (Player player in Services.Players.GetPlayers())
             {
                 player.CharacterAdded.Connect(c => {
-                    if (c is Model)
+                    var t = true;
+                    t = c is Model abc;
+                    if (t)
                     { // THIS IS THE BAD LINE
                         Console.WriteLine("Player Character found!");
                     }
