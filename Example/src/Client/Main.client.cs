@@ -4,8 +4,7 @@ namespace Client
     {
         public static void Main()
         {
-            print("abc");
-            int[] nums = [1, 2, 3];
+            
         }
     }
 }
