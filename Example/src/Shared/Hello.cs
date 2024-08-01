@@ -4,7 +4,7 @@ namespace Shared
     {
         public static void SayHello()
         {
-            Console.WriteLine("Hello C#!");
+            print("Hello C#!");
         }
     }
 }
