@@ -1,7 +1,9 @@
 SourceFolder: src
 OutputFolder: dist
+EnabledBuiltInTransformers:
+    - Debug
 CSharpOptions:
     EntryPointRequired: false
     EntryPointName: Game
     MainMethodName: Main
-    AssemblyName: RobloxCSProject
+    AssemblyName: ExampleProject
