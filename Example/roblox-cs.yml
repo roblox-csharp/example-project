@@ -1,5 +1,6 @@
 SourceFolder: src
 OutputFolder: dist
+EmitNativeAttributeOnClassOrNamespaceCallbacks: true
 EnabledBuiltInTransformers:
     - Debug
 CSharpOptions:
