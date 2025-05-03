@@ -1,10 +1,2 @@
 SourceFolder: src
 OutputFolder: dist
-EmitNativeAttributeOnClassOrNamespaceCallbacks: true
-EnabledBuiltInTransformers:
-    - Debug
-CSharpOptions:
-    EntryPointRequired: false
-    EntryPointName: Game
-    MainMethodName: Main
-    AssemblyName: ExampleProject
